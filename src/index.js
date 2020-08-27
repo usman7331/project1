@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Hello from './Hello'
 ReactDOM.render(
   <div><App name="gondal" age={24} ></App></div>,
   document.getElementById('root')
